@@ -5,11 +5,12 @@
 Disaster Response Pipeline
 
 ### Description
-The aim of the project is to create a disaster response pipeline for messages in order to classify them and potentially take action to help people in emergency. The data is provided by Figure Eight and contains pre-labeled messages from an actual disaster, and based on it a Machine Learning model with Grid Search is trained to optimize the classification into 36 categories. The user interface is a web app where future messages can be input and classified into those categories, for instance by an emergency worker.
+The aim of the project is to create a disaster response pipeline for messages in order to classify them and potentially take action to help people in emergency. The data is provided by Figure Eight and contains pre-labeled messages from an actual disaster, and based on it a Machine Learning model with Grid Search is trained to optimize the classification into 36 categories. The user interface is a web app where future messages can be input and classified into those categories, for instance by an emergency worker. The web app also contains visualization of the data provided by Figure Eight.
 
 The pipeline consists of three parts:
 1. ETL pipeline - extracts, transforms and loads the raw data of pre-labeled messages; two .csv files are merged, cleaned and stored in a structured database.
 2. Machine Learning pipeline - applying Natural Language Processing (NLP) techniques on the text message data before training a multi-output Random Forest classifier with tuned hyper-parameters through Grid Search.
+3. Web app where the results are displayed
 
 ### Dependencies
 
