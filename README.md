@@ -28,8 +28,7 @@ python data/process_data.py data/disaster_messages.csv data/disaster_categories.
 ```python
 python model/train_classifier.py data/DataResponse.db models/classifier.pkl
 ```
-3. Run the web app:
-4. Open this URL in your browser: http://0.0.0.0:3001
+3. Run the web app by opening this URL in your browser: http://0.0.0.0:3001
 
 ### License
 MIT
